@@ -1,0 +1,20 @@
+{
+  "name": "golden-triangle-software",
+  "version": "1.0.0",
+  "description": "This is an empty repository that is, save for this explanatory text, devoid of all content. This upstream is appropriate to use in situations where a Pantheon site will be created through a build step (see the [Terminus Build Tools Plugin](https://github.com/pantheon-systems/terminus-build-tools-plugin) and managed completely by Composer. Typically, the build step should completely replace the content provided by the upstream. If this README persists after the build step, it will do no harm; however, it would be advisable to replace this text with a description of the project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://codeserver.dev.407e3796-3c96-4484-875f-2e103ae933d4@codeserver.dev.407e3796-3c96-4484-875f-2e103ae933d4.drush.in:2222/~/repository.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.1",
+    "node-fetch": "^3.2.8"
+  }
+}
