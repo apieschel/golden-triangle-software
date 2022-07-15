@@ -4,7 +4,9 @@
   "description": "This is an empty repository that is, save for this explanatory text, devoid of all content. This upstream is appropriate to use in situations where a Pantheon site will be created through a build step (see the [Terminus Build Tools Plugin](https://github.com/pantheon-systems/terminus-build-tools-plugin) and managed completely by Composer. Typically, the build step should completely replace the content provided by the upstream. If this README persists after the build step, it will do no harm; however, it would be advisable to replace this text with a description of the project.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy"
   },
   "repository": {
     "type": "git",
@@ -15,6 +17,6 @@
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^1.0.1",
-    "node-fetch": "^3.2.8"
+    "@11ty/eleventy-fetch": "^3.0.0"
   }
 }
