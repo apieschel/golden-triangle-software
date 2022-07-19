@@ -5,9 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>{{ posts.title.rendered }}</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300">
+	<link rel="stylesheet" href="assets/css/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/lightbox/dist/css/lightbox.min.css">
 	<link rel="stylesheet" href="style.css">
   </head>
-  <body>
+  <body class="home page-template-page-home">
     {{ content | safe }}
+
+	<script src="assets/js/jquery-3.2.1.min.js"></script> 
+	<script src="assets/lightbox/dist/js/lightbox.min.js" defer></script> 
   </body>
 </html>

@@ -580,16 +580,22 @@ ul {
 
 .home h1 {
 	font-size:48px;
+	font-weight: 100;
 	margin-bottom:48px;
 	margin-left: 40px;
 	text-align: left;
 }
 
 .home h2, .home h3 {
+	text-align: center;
 	text-transform: uppercase;
 }
 
-.home .col-md-5 p {
+.home h3 {
+	font-weight: 100;
+}
+
+.home .project-tile p {
 	padding-left: 1%;
 	font-size: 2rem;
 	margin: 3.5% 0 3.5% 0;
@@ -602,6 +608,14 @@ ul {
 	position: absolute;
 	top:auto;
 	width:1px;
+}
+
+.project-container {
+	display: flex;
+}
+
+.project-tile {
+	min-width: 800px;
 }
 
 /* OTHER PAGES */
@@ -702,33 +716,33 @@ ul {
 
 .code1 {
 	margin: 5% 0 20% 0;
-	background: url("/wp-content/themes/gtrsoftware-theme/assets/dirtypaws_html_code_sample.PNG");
+	background: url("https://dev-gtr-software-api.pantheonsite.io/wp-content/uploads/2022/07/frankie_css_code_snippet.png");
 }
 
 .code2 {
 	margin: 5% 5% 20% 0;
-	background: url("/wp-content/themes/gtrsoftware-theme/assets/custom_styles_code_snippet.PNG");
+	background: url("https://dev-gtr-software-api.pantheonsite.io/wp-content/uploads/2022/07/frankie_html_code_snippet.png");
 }
 
 .code3 {
 	margin: 5% 0 20% 0;
-	background: url("/wp-content/themes/gtrsoftware-theme/assets/frankie_lamar_css_code_sample.PNG");
+	background: url("https://dev-gtr-software-api.pantheonsite.io/wp-content/uploads/2022/07/custom_styles_code_snippet.png");
 }
 
 .code4 {
 	margin: 5% 5% 20% 0;
-	background: url("/wp-content/themes/gtrsoftware-theme/assets/frankie_lamar_html_code_sample.PNG");
+	background: url("https://dev-gtr-software-api.pantheonsite.io/wp-content/uploads/2022/07/dirtypaws_html_code_sample.png");
 }
 
 
 .code5 {
 	margin: 5% 0 20% 0;
-	background: url("/wp-content/themes/gtrsoftware-theme/assets/mainstreet_css_code_sample.PNG");
+	background: url("https://dev-gtr-software-api.pantheonsite.io/wp-content/uploads/2022/07/mainstreet_css_code_sample.png");
 }
 
 .code6 {
 	margin: 5% 5% 20% 0;
-	background: url("/wp-content/themes/gtrsoftware-theme/assets/mainstreet_php_code_sample.PNG");
+	background: url("https://dev-gtr-software-api.pantheonsite.io/wp-content/uploads/2022/07/mainstreet_php_code_sample.png");
 }
 
 .code:hover span {
@@ -759,7 +773,7 @@ ul {
 		padding-left: 0;
 	}
 	
-	.page-template-page-home .col-md-5 p {
+	.page-template-page-home .project-tile p {
 		font-size: 1.15rem;
 		padding-left: 0;
 	}
@@ -794,7 +808,7 @@ ul {
 		font-size: 0.7rem;
 	}
 	
-	.home .col-md-5 p {
+	.home .project-tile p {
 		font-size: 0.7rem;
 	}
 
